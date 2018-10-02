@@ -1,0 +1,17 @@
+weaponArmor: 66
+rangedArmor: 66
+spellArmor: 0
+meleeAttackSpeed: 5
+meleeDamage: 9
+rangedDamage: 0
+health: 225
+spellList1:
+- name: Rage
+  damage: 22
+  damageType: MELEE
+spellList2:
+- name: Hysterical
+  priority: 1
+  cooldown: 25
+  range: 3
+  channel: 0.5
