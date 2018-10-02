@@ -15,3 +15,23 @@ spellList2:
   cooldown: 25
   range: 3
   channel: 0.5
+spellList3:
+- name: Unstoppable
+  cooldown: 20
+  mobility: 3
+  hexproof: 3
+  priority: 0
+spellList4:
+- name: Cleave
+  cooldown: 9
+  channel: 0.5
+  damage: 10
+  range: 3
+  priority: 5
+spellList5:
+- name: Shriek
+  cooldown: 45
+  channel: 0.5
+  immobility: 6
+  priority: 3
+  range: 5

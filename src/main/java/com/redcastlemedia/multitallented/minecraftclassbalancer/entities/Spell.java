@@ -3,10 +3,6 @@ package com.redcastlemedia.multitallented.minecraftclassbalancer.entities;
 import lombok.Getter;
 import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-
 @Getter
 @Setter
 public class Spell {
@@ -16,7 +12,7 @@ public class Spell {
     private double channel = 0;
     private double utility = 0;
     private double heal = 0;
-    private double range = 5;
+    private double range = -1;
     private double mobility = 0;
     private double immobility = 0;
     private double hexproof = 0;
